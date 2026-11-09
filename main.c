@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-    printf("Bienvenue dans le projet calcul-c !\n");
+    int a, b;
+    printf("Entrez deux entiers : ");
+    scanf("%d %d", &a, &b);
+    printf("La somme de %d et %d est %d\n", a, b, a + b);
     return 0;
 }
